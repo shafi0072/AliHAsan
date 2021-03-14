@@ -1,5 +1,5 @@
 {
-  "name": "@codeching/my-npm-test-package",
+  "name": "MyNpm",
   "version": "1.0.0",
   "private": false,
   "dependencies": {
@@ -85,7 +85,6 @@
     "trailingComma": "es5",
     "arrowParens": "always"
   },
- 
   "browserslist": {
     "production": [
       ">0.2%",
