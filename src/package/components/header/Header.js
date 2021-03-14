@@ -7,9 +7,15 @@ const Header = () => {
     <div>
         <AppBar position='static'>
           <Toolbar>
-              <IconButton color='white' edge='start' aria-labe='menu'>
+              <IconButton color='inherit' edge='start' aria-labe='menu'>
                   <Menu/>
               </IconButton>
+              <Typography variant='h6'>
+                Ali Hasan
+              </Typography>
+              <Button color='inherit'>
+                  Login
+              </Button>
           </Toolbar>
         </AppBar>
     </div>
