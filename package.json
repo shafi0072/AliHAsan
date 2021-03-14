@@ -85,25 +85,7 @@
     "trailingComma": "es5",
     "arrowParens": "always"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run build && npm test"
-    }
-  },
-  "lint-staged": {
-    "src/**/*.{js,jsx}": [
-      "prettier --write",
-      "eslint src/**/*.js",
-      "git add"
-    ]
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+ 
   "browserslist": {
     "production": [
       ">0.2%",
